@@ -1,0 +1,19 @@
+ALGORITMA FRAME WELCOME :
+	1. Saat tampil halaman welcome terdapat tombol masuk, jika ditekan maka akan beralih ke laman frame login.
+
+ALGORITMA FRAME LOGIN :
+	1. Jika Username dan Password kosong tidak diisi maka akan muncul notifikasi username & password tidak boleh kosong.
+	2. Jika Username terisi tetapi password kosong maka akan muncul notifikasi password tidak boleh kosong.
+	3. Jika Username kosong tetapi password terisi maka akan muncul notifikasi username tidak boleh kosong.
+	4. Jika user salah memasukkan password sebanyak 5 kali maka akan muncul notifikasi jika lupa password gunakan fitur lupa password.
+	5. Jika user benar memasukkan data login tetapi tidak mencentang checkbox maka akan muncul harap centang checkbox.
+	6. Jika user benar memasukkan data login dan sesuai maka akan muncul notifikasi berhasil login dan akan beralih ke dashboard sesuai dengan data akses.
+	7. Jika user menekan tombol "kembali kelaman sebelumnya" maka akan kembali kelaman frame welcome.
+	8. Jika user menekan "lupa password? klik disini" maka akan beralih ke laman frame lupa password.
+
+ALGORITMA LUPA PASSWORD & GANTI PASSWORD :
+	1. Tampil halaman frame lupa password, maka diharuskan masukkan username, jika username yang dimasukkan salah maka akan muncul username salah.
+	2. Jika username benar maka akan beralih ke laman frame ganti password.
+	3. Jika form masih kosong maka akan muncul notifikasi anda belum mengisi password baru.
+	4. Jika confirm password tidak sama dengan password baru maka akan muncul notifikasi confirm password salah.
+	5. Jika tahap sesuai maka akan muncul notifikasi password berhasil dirubah dan akan kembali kelaman login.
